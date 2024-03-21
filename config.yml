@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 mainsections: ["posts"]
-googleAnalytics: 370521462
+googleAnalytics: G-82F47FTFKL
 
 minify:
   disableXML: true
