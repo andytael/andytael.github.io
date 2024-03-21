@@ -18,6 +18,10 @@ Spring Initializr, add starter
 
 ### Configure application
 
+Setup datasource
+
+Create TX EventQs
+
 ### Build Application
 
 ### Deploy application
