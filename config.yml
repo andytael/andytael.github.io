@@ -1,4 +1,76 @@
-baseURL: https://example.org/
+baseURL: https://mr-a.org/
 languageCode: en-us
 title: "Andy's Struntprat (nonsense)"
 theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+mainsections: ["posts"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "Andy's Struntprat (nonsense)"
+  description: "Andy's Struntprat"
+  keywords: [Blog, Nonsense]
+  author: Me
+  DateFormat: "March 20, 2024"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Information Technology thoughts"
+    Content: >
+      **Very Important!**
+
+
+      Everything I post on this site is in my own words and of my own opinion and is not on behalf of Oracle.
+
+      I am a Product Manager with Oracle’s Database Development team. So I get to work with the software products I post about on this blog.
